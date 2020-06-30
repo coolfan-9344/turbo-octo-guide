@@ -1,0 +1,12 @@
+module.exports = {
+    name: "",
+    description: "",
+    usage: "",
+    args: ,
+    guildOnly: ,
+    cooldown: ,
+    aliases: ["", ""],
+    execute(message, args, discord, bot, color){
+
+    }
+};
