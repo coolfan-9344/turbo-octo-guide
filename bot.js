@@ -2,7 +2,7 @@ const discord = require("discord.js");
 const fs = require("fs");
 const redditapi = require("imageapi.js");
 const bot = new discord.Client();
-var { token } = require("./config.json");
+token = process.env.token;
 var invlink;
 //var prefixone = "e!"; 
 //var prefixtwo = "e?";
@@ -90,4 +90,3 @@ bot.on("message", async message =>{
 });
 
 bot.login(token);
-         //NzE2OTUzNjM5ODAxMDYxNDE4.XtTagw.CP9_fvVXwcQRB1YuW1d8y5ajwKE
